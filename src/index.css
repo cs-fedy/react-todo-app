@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+:root {
+  --primary-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 !important;
+}
+body {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: .9rem;
+  color: var(--primary-color);
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  padding: 0 10px;
+}
+
+.btn-full-width {
+  width: 100%;
+} 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vw !important;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.todo-app {
+  width: 100%;
+}
+
+.nav {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 3px solid #177bff !important;
+}
+
+.checked-box {
+  text-decoration: line-through;
+}
+
+.unchecked-box {
+  text-decoration: none;
+}
+
+.todo-col {
+  display: flex;
+}
+
+.remove-btn {
+  padding: 0 !important;
+  color: #EB5757 !important;
+}
