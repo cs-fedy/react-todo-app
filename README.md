@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">todo app</h1>
 
 <div align="center">
@@ -8,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://todo-app01.netlify.app/">
       Demo
     </a>
     <span> | </span>
