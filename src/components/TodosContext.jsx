@@ -5,7 +5,7 @@ export const TodosContext = createContext([]);
 
 export const TodosProvider = (props) => {
     const [todos, setTodos] = useState(
-        JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+        JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []
     );
     const [todo, setTodo] = useState("");
 
